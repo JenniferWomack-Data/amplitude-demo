@@ -63,7 +63,23 @@ funnels, and behavioral analytics.
 </button>
 
 <script>
-// We will add Amplitude event tracking here later.
+document.getElementById("signupBtn").addEventListener("click", function() {
+    amplitude.track("CTA Clicked", {
+        cta_name: "Sign Up",
+        page_name: "Product Analytics Demo",
+        button_location: "Hero Section"
+    });
+    alert("Sign Up clicked");
+});
+
+document.getElementById("demoBtn").addEventListener("click", function() {
+    amplitude.track("CTA Clicked", {
+        cta_name: "Request Demo",
+        page_name: "Product Analytics Demo",
+        button_location: "Hero Section"
+    });
+    alert("Request Demo clicked");
+});
 </script>
 
 </body>
