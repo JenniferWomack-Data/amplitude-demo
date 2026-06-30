@@ -10,7 +10,7 @@ This project demonstrates a basic product analytics implementation using Amplitu
 - Behavioral cohort creation
 
 ## Live Demo
-https://yourusername.github.io/amplitude-demo/
+https://jenniferwomack-data.github.io/amplitude-demo/
 
 ## Technologies
 - HTML
